@@ -1,0 +1,154 @@
+{
+    "metadata": {
+        ".zattrs": {},
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "aou/.zarray": {
+            "chunks": [
+                26,
+                45,
+                180
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": 9.969209968386869e+36,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                102,
+                180,
+                360
+            ],
+            "zarr_format": 2
+        },
+        "aou/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "depth",
+                "lat",
+                "lon"
+            ],
+            "cell_methods": "area: mean depth: mean time: mean within years time: mean over years",
+            "coordinates": "time lat lon depth",
+            "grid_mapping": "crs",
+            "long_name": "Objectively analyzed mean fields for Apparent_Oxygen_Utilization at standard depth levels.",
+            "standard_name": "Apparent_Oxygen_Utilization",
+            "units": "micromoles_per_kilogram"
+        },
+        "depth/.zarray": {
+            "chunks": [
+                102
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                102
+            ],
+            "zarr_format": 2
+        },
+        "depth/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "depth"
+            ],
+            "axis": "Z",
+            "bounds": "depth_bnds",
+            "positive": "down",
+            "standard_name": "depth",
+            "units": "meters"
+        },
+        "lat/.zarray": {
+            "chunks": [
+                180
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                180
+            ],
+            "zarr_format": 2
+        },
+        "lat/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "lat"
+            ],
+            "axis": "Y",
+            "bounds": "lat_bnds",
+            "long_name": "latitude",
+            "standard_name": "latitude",
+            "units": "degrees_north"
+        },
+        "lon/.zarray": {
+            "chunks": [
+                360
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                360
+            ],
+            "zarr_format": 2
+        },
+        "lon/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "lon"
+            ],
+            "axis": "X",
+            "bounds": "lon_bnds",
+            "long_name": "longitude",
+            "standard_name": "longitude",
+            "units": "degrees_east"
+        },
+        "time/.zarray": {
+            "chunks": [],
+            "compressor": null,
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [],
+            "zarr_format": 2
+        },
+        "time/.zattrs": {
+            "_ARRAY_DIMENSIONS": [],
+            "axis": "T",
+            "climatology": "climatology_bounds",
+            "long_name": "time",
+            "standard_name": "time",
+            "units": "months since 1900-01-01 00:00:00"
+        }
+    },
+    "zarr_consolidated_format": 1
+}

@@ -1,0 +1,13 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "depth",
+        "lat",
+        "lon"
+    ],
+    "cell_methods": "area: mean depth: mean time: mean within years time: mean over years",
+    "coordinates": "time lat lon depth",
+    "grid_mapping": "crs",
+    "long_name": "Objectively analyzed mean fields for Apparent_Oxygen_Utilization at standard depth levels.",
+    "standard_name": "Apparent_Oxygen_Utilization",
+    "units": "micromoles_per_kilogram"
+}

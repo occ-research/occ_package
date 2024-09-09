@@ -1,0 +1,8 @@
+{
+    "_ARRAY_DIMENSIONS": [],
+    "axis": "T",
+    "climatology": "climatology_bounds",
+    "long_name": "time",
+    "standard_name": "time",
+    "units": "months since 1900-01-01 00:00:00"
+}
