@@ -1,0 +1,31 @@
+[build-system]
+requires = [ "setuptools>=41", "wheel", "setuptools-git-versioning"]
+build-backend = "setuptools.build_meta"
+
+['project']
+name = "occlab"
+version = "0.1"
+authors = [
+  { name="Emma Holtzman", email="holtzmaner@gmail.com" },{name= "Dr. Rebecca Beadling", email= "rebecca.beadling@temple.edu"}
+]
+description = "Compilation of functions and packages created by the OCC Lab at Temple University under the supervision of Dr. Rebecca Beadling." 
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["requests", "importlib <5.0.0"]
+
+[project.urls]
+Homepage = "https://github.com/emma138/occlab"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+# [tool.setuptools.packages.find]
+# where = ["wocemaps", "southpolar"]  # list of folders that contain the packages (["."] by default)
+# include = ["wocemaps*", "spmap*"]  # package names should match these glob patterns (["*"] by default)
+# exclude = []  # exclude packages matching these glob patterns (empty by default)
+# namespaces = false  # to disable scanning PEP 420 namespaces (true by default)
